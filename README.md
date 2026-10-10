@@ -1,0 +1,79 @@
+[README.md](https://github.com/user-attachments/files/33293322/README.md)
+# Endpoint Security Logging Data Models for OMB M-26-14 Compliance
+
+Standardized, technology-specific Endpoint Security Logging Data Models designed for U.S. federal civilian and DoD environments.
+
+These models define the events and critical attributes that must be captured from common technical solutions so agencies can:
+
+- Meet **OMB Memorandum M-26-14** outcomes (Continuous Event Monitoring – CEM + Threat Hunting, Investigation, Response, and Forensics – THIRF)
+- Support after-the-fact investigations and Zero Trust initiatives
+- Achieve **Splunk Common Information Model (CIM)** compliance for normalized, searchable data
+- Enable CSIRC / incident response capabilities
+- Answer the right security and investigative questions based on why the technology was deployed
+
+The models are practical comparison baselines: an analyst can take a customer’s actual technical stack, compare it against the relevant model(s), identify gaps, and define exactly what logs and fields must be collected and normalized.
+
+## Alignment & Authoritative Sources
+
+- OMB Memorandum M-26-14 (Ensuring Effective and Efficient Agency Logging and Network Visibility to Defend Against Evolving Cyber Threats) – rescinds M-21-31
+- CISA Logging Reference Architecture (LRA)
+- Splunk Common Information Model (CIM)
+- Zero Trust Maturity Model (Visibility & Analytics pillar)
+- Relevant DISA STIGs, CIS Benchmarks, and NSA/CISA guidance
+
+## Current Models
+
+| Technology Category | Primary Solutions Covered | Status | File |
+|---------------------|---------------------------|--------|------|
+| Web Servers | IIS, Apache, Nginx | Complete | [Web_Servers_Endpoint_Security_Logging_Data_Model.md](Web_Servers_Endpoint_Security_Logging_Data_Model.md) |
+| Windows Operating Systems | Windows Server 2025/2022/2019, Windows 11/10 | Complete | [Windows_OS_Endpoint_Security_Logging_Data_Model.md](Windows_OS_Endpoint_Security_Logging_Data_Model.md) |
+| Linux Operating Systems | RHEL 9/8, Rocky/AlmaLinux, Ubuntu LTS | Complete | [Linux_OS_Endpoint_Security_Logging_Data_Model.md](Linux_OS_Endpoint_Security_Logging_Data_Model.md) |
+| macOS | Tahoe 26.x, Sequoia 15.x, Golden Gate 27.x | Complete | [macOS_Endpoint_Security_Logging_Data_Model.md](macOS_Endpoint_Security_Logging_Data_Model.md) |
+| Kubernetes Implementations | OpenShift, RKE2/RKE Government, EKS, AKS, GKE | Complete | [Kubernetes_Endpoint_Security_Logging_Data_Model.md](Kubernetes_Endpoint_Security_Logging_Data_Model.md) |
+
+Additional categories (Databases, Firewalls/NGFWs, Proxies/SWGs, Routers/Network Devices, etc.) are planned.
+
+## Required Structure of Every Model
+
+Each model follows a consistent structure:
+
+1. Category Overview
+2. Operational Purpose & Security Rationale
+3. Key Questions the Model Must Answer (mapped to CEM / THIRF / Investigation / Zero Trust)
+4. Required Event Classes / Log Sources (with priority: Must Have / Should Have / Nice to Have)
+5. Critical Attributes / Fields Table (with CIM mappings)
+6. CIM Alignment
+7. CEM, THIRF & CSIRC Enablement Notes
+8. Collection, Normalization & Maturity Guidance (including gap-analysis checklist)
+9. Stack Comparison Template
+
+## How to Use These Models
+
+1. Identify the relevant technology category/model for the customer’s stack.
+2. Use the **Stack Comparison Template** to evaluate the live implementation.
+3. Identify gaps in event classes, critical fields, CIM normalization, retention, and SOC availability.
+4. Define collection, parsing, and retention requirements to close the gaps.
+5. Measure contribution to the Logging Maturity Model elements (Inventory Visibility, Collection Coverage, Collection Operations, Data Retention, Log Management).
+
+Retention baseline per M-26-14:
+- Actively searchable for a minimum of **6 months** (CEM)
+- Retrievable for a minimum of **12 months** (THIRF)
+
+## Contributing
+
+This is a living set of models. Contributions that improve accuracy, add popular federal/DoD solutions, refine CIM mappings, or expand coverage are welcome. Please open an issue or pull request.
+
+## References
+
+- [OMB Memorandum M-26-14](https://www.whitehouse.gov/wp-content/uploads/2026/05/M-26-14-Ensuring-Effective-and-Efficient-Agency-Logging-and-Network-Visibility-to-Defend-Against-Evolving-Cyber-Threats.pdf)
+- CISA Logging Reference Architecture
+- Splunk CIM Documentation
+- Relevant DISA STIGs and CIS Benchmarks
+
+## License
+
+This content is released under the [MIT License](LICENSE) (or your preferred open-source license). Feel free to use, adapt, and share.
+
+---
+
+**Maintained as a practical resource for federal cybersecurity architects, logging engineers, and SOC analysts.**
