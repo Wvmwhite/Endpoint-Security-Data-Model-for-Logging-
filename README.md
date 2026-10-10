@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33293480/README.md)
-
 # Endpoint Security Logging Data Models for OMB M-26-14 Compliance
 
 Standardized, technology-specific Endpoint Security Logging Data Models designed for U.S. federal civilian and DoD environments.
@@ -42,6 +40,7 @@ This approach supports cost-efficient, flexible pipelines that meet M-26-14 sear
 | Kubernetes Implementations | OpenShift, RKE2/RKE Government, EKS, AKS, GKE | Complete | [Kubernetes_Endpoint_Security_Logging_Data_Model.md](Kubernetes_Endpoint_Security_Logging_Data_Model.md) |
 | Relational Databases | Oracle, Microsoft SQL Server, PostgreSQL | Complete | [Relational_Databases_Endpoint_Security_Logging_Data_Model.md](Relational_Databases_Endpoint_Security_Logging_Data_Model.md) |
 | NoSQL Databases | MongoDB (primary), Redis, Elasticsearch, DynamoDB, etc. | Complete | [NoSQL_Databases_Endpoint_Security_Logging_Data_Model.md](NoSQL_Databases_Endpoint_Security_Logging_Data_Model.md) |
+| AWS Platform Services | CloudTrail, CloudWatch Logs, VPC Flow Logs, S3, API Gateway, ALB/NLB, SQS, Transit Gateway | Complete | [AWS_Platform_Services_Endpoint_Security_Logging_Data_Model.md](AWS_Platform_Services_Endpoint_Security_Logging_Data_Model.md) |
 
 Additional categories (Firewalls/NGFWs, Proxies/Secure Web Gateways, Routers and Network Devices, etc.) are planned.
 
