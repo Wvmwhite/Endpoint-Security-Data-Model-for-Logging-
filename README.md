@@ -46,6 +46,16 @@ This approach supports cost-efficient, flexible pipelines that meet M-26-14 sear
 | Firewalls / NGFWs | Palo Alto Networks, Cisco Secure Firewall (FTD/ASA), Fortinet FortiGate | Complete | [Firewalls_NGFWs_Endpoint_Security_Logging_Data_Model.md](Firewalls_NGFWs_Endpoint_Security_Logging_Data_Model.md) |
 | F5 BIG-IP LTM and GTM | F5 BIG-IP Local Traffic Manager and Global Traffic Manager | Complete | [F5_BIG-IP_LTM_GTM_Endpoint_Security_Logging_Data_Model.md](F5_BIG-IP_LTM_GTM_Endpoint_Security_Logging_Data_Model.md) |
 
+## Visual Example: Linux OS Data Model
+
+The diagram below illustrates the structure of a typical model (using Linux OS as the example). It shows the flow from log sources through critical attributes to CIM-aligned outcomes that support CEM and THIRF.
+
+![Linux OS Endpoint Security Logging Data Model](Linux_OS_Data_Model_Diagram.png)
+
+This pattern (sources → critical fields → CIM mapping → CEM/THIRF outcomes) is consistent across all models in the repository.
+
+
+
 Additional categories (Firewalls/NGFWs, Proxies/Secure Web Gateways, Routers and Network Devices, etc.) are planned.
 
 ## Required Structure of Every Model
