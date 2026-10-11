@@ -52,6 +52,9 @@ The diagram below illustrates the structure of a typical model (using Linux OS a
 
 ![Linux OS Endpoint Security Logging Data Model](Linux_OS_Data_Model_Diagram.png)
 
+<img width="2065" height="1375" alt="image" src="https://github.com/user-attachments/assets/c79815c8-fe1d-4ada-a6d5-4d040a5636a6" />
+
+
 This pattern (sources → critical fields → CIM mapping → CEM/THIRF outcomes) is consistent across all models in the repository.
 
 
