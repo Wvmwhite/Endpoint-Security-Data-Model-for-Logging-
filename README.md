@@ -45,15 +45,13 @@ This approach supports cost-efficient, flexible pipelines that meet M-26-14 sear
 | Google Cloud Platform Services | Cloud Audit Logs, VPC Flow Logs, Cloud Logging, Cloud Storage, Load Balancing, API Gateway | Complete | [Google_Cloud_Platform_Services_Endpoint_Security_Logging_Data_Model.md](Google_Cloud_Platform_Services_Endpoint_Security_Logging_Data_Model.md) |
 | Firewalls / NGFWs | Palo Alto Networks, Cisco Secure Firewall (FTD/ASA), Fortinet FortiGate | Complete | [Firewalls_NGFWs_Endpoint_Security_Logging_Data_Model.md](Firewalls_NGFWs_Endpoint_Security_Logging_Data_Model.md) |
 | F5 BIG-IP LTM and GTM | F5 BIG-IP Local Traffic Manager and Global Traffic Manager | Complete | [F5_BIG-IP_LTM_GTM_Endpoint_Security_Logging_Data_Model.md](F5_BIG-IP_LTM_GTM_Endpoint_Security_Logging_Data_Model.md) |
+| Nutanix Platform | Nutanix Cloud Platform (AOS + AHV), Prism Element/Central, Flow | Complete | [Nutanix_Platform_Endpoint_Security_Logging_Data_Model.md](Nutanix_Platform_Endpoint_Security_Logging_Data_Model.md) |
 
 ## Visual Example: Linux OS Data Model
 
 The diagram below illustrates the structure of a typical model (using Linux OS as the example). It shows the flow from log sources through critical attributes to CIM-aligned outcomes that support CEM and THIRF.
 
 ![Linux OS Endpoint Security Logging Data Model](Linux_OS_Data_Model_Diagram.png)
-
-<img width="2065" height="1375" alt="image" src="https://github.com/user-attachments/assets/c79815c8-fe1d-4ada-a6d5-4d040a5636a6" />
-
 
 This pattern (sources → critical fields → CIM mapping → CEM/THIRF outcomes) is consistent across all models in the repository.
 
@@ -90,12 +88,10 @@ This is a living set of models. Contributions that improve accuracy, add popular
 ## References
 
 - [OMB Memorandum M-26-14](https://www.whitehouse.gov/wp-content/uploads/2026/05/M-26-14-Ensuring-Effective-and-Efficient-Agency-Logging-and-Network-Visibility-to-Defend-Against-Evolving-Cyber-Threats.pdf)
-- [CISA Logging Reference Architecture (LRA)](https://www.cisa.gov/resources-tools/resources/logging-reference-architecture)
-- [Splunk Common Information Model (CIM) Documentation](https://docs.splunk.com/Documentation/CIM)
-- [Cribl Stream Documentation](https://docs.cribl.io/stream)
-- [Cribl Edge Documentation](https://docs.cribl.io/edge)
-- [DISA Security Technical Implementation Guides (STIGs)](https://public.cyber.mil/stigs/)
-- [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks-overview)
+- CISA Logging Reference Architecture
+- Splunk CIM Documentation
+- Cribl Stream and Cribl Edge documentation
+- Relevant DISA STIGs and CIS Benchmarks
 
 ## License
 
