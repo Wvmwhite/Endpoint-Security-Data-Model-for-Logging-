@@ -51,7 +51,7 @@ This approach supports cost-efficient, flexible pipelines that meet M-26-14 sear
 
 The diagram below illustrates the structure of a typical model (using Linux OS as the example). It shows the flow from log sources through critical attributes to CIM-aligned outcomes that support CEM and THIRF.
 
-![Linux OS Endpoint Security Logging Data Model](Linux_OS_Data_Model_Diagram.png)
+![Linux OS Endpoint Security Logging Data Model](LinuxOS.png)
 
 This pattern (sources → critical fields → CIM mapping → CEM/THIRF outcomes) is consistent across all models in the repository.
 
