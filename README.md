@@ -88,10 +88,12 @@ This is a living set of models. Contributions that improve accuracy, add popular
 ## References
 
 - [OMB Memorandum M-26-14](https://www.whitehouse.gov/wp-content/uploads/2026/05/M-26-14-Ensuring-Effective-and-Efficient-Agency-Logging-and-Network-Visibility-to-Defend-Against-Evolving-Cyber-Threats.pdf)
-- CISA Logging Reference Architecture
-- Splunk CIM Documentation
-- Cribl Stream and Cribl Edge documentation
-- Relevant DISA STIGs and CIS Benchmarks
+- [CISA Logging Reference Architecture (LRA)](https://www.cisa.gov/resources-tools/resources/logging-reference-architecture)
+- [Splunk Common Information Model (CIM) Documentation](https://docs.splunk.com/Documentation/CIM)
+- [Cribl Stream Documentation](https://docs.cribl.io/stream)
+- [Cribl Edge Documentation](https://docs.cribl.io/edge)
+- [DISA Security Technical Implementation Guides (STIGs)](https://public.cyber.mil/stigs/)
+- [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks-overview)
 
 ## License
 
