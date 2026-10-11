@@ -57,10 +57,6 @@ The diagram below illustrates the structure of a typical model (using Linux OS a
 
 This pattern (sources → critical fields → CIM mapping → CEM/THIRF outcomes) is consistent across all models in the repository.
 
-
-
-Additional categories (Firewalls/NGFWs, Proxies/Secure Web Gateways, Routers and Network Devices, etc.) are planned.
-
 ## Required Structure of Every Model
 
 Each model follows a consistent structure:
