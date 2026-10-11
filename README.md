@@ -43,6 +43,8 @@ This approach supports cost-efficient, flexible pipelines that meet M-26-14 sear
 | AWS Platform Services | CloudTrail, CloudWatch Logs, VPC Flow Logs, S3, API Gateway, ALB/NLB, SQS, Transit Gateway | Complete | [AWS_Platform_Services_Endpoint_Security_Logging_Data_Model.md](AWS_Platform_Services_Endpoint_Security_Logging_Data_Model.md) |
 | Azure Platform Services | Activity Logs, Diagnostic Settings, NSG/VNet Flow Logs, Entra ID, Storage, App Gateway, API Management | Complete | [Azure_Platform_Services_Endpoint_Security_Logging_Data_Model.md](Azure_Platform_Services_Endpoint_Security_Logging_Data_Model.md) |
 | Google Cloud Platform Services | Cloud Audit Logs, VPC Flow Logs, Cloud Logging, Cloud Storage, Load Balancing, API Gateway | Complete | [Google_Cloud_Platform_Services_Endpoint_Security_Logging_Data_Model.md](Google_Cloud_Platform_Services_Endpoint_Security_Logging_Data_Model.md) |
+| Firewalls / NGFWs | Palo Alto Networks, Cisco Secure Firewall (FTD/ASA), Fortinet FortiGate | Complete | [Firewalls_NGFWs_Endpoint_Security_Logging_Data_Model.md](Firewalls_NGFWs_Endpoint_Security_Logging_Data_Model.md) |
+| F5 BIG-IP LTM and GTM | F5 BIG-IP Local Traffic Manager and Global Traffic Manager | Complete | [F5_BIG-IP_LTM_GTM_Endpoint_Security_Logging_Data_Model.md](F5_BIG-IP_LTM_GTM_Endpoint_Security_Logging_Data_Model.md) |
 
 Additional categories (Firewalls/NGFWs, Proxies/Secure Web Gateways, Routers and Network Devices, etc.) are planned.
 
